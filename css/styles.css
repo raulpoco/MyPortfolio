@@ -1,0 +1,210 @@
+body{
+  margin:0;
+  color: white;
+  font-family: 'Montserrat-Bold', sans-serif;
+
+}
+
+
+/* Container TOP */
+
+
+.container-top{
+  background-color: #121212;
+
+}
+
+/* Navbar */
+
+.navbar{
+  padding: 0 0  4.5rem 0;
+}
+
+.navbar-link{
+  color:#F5F5F5;
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+
+.nav-item{
+  padding: 0 25px 0 25px;
+}
+
+.navbar-brand{
+font-family: 'Fredoka One', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #F5F5F5;
+  padding-left:1rem;
+}
+
+.navbar-brand:hover{
+  color:#47B5FF !important;
+  cursor: pointer;
+}
+
+/* Ovveride the Bootsrap color text from nav */
+
+a.nav-link {color:#F5F5F5!important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;}
+a.nav-link:hover {color:#47B5FF !important;
+  text-decoration:none !important;font-size: 1.2rem !important;
+  font-weight: bold !important;
+font-family: 'Josefin Sans', sans-serif !important; }
+
+/* Top container content */
+.col-top{
+  color:##DFF6FF;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.col-prog{
+  text-align: center;
+}
+.img-prog{
+  height: 400px;
+  padding-bottom: 4rem;
+
+}
+
+/* Middle container content */
+
+.container-middle{
+  background-color:#F5F5F5  ;
+}
+
+.container-middle{
+  color:#121212;
+  font-family: 'Josefin Sans', sans-serif;
+text-align: center;
+line-height: 1.5;
+}
+
+.h1-project{
+  padding-bottom: 1rem;
+}
+.p-project{
+  padding-top:1rem;
+}
+/* Text content middle */
+.h1-about{padding:2rem 0;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 3rem;
+font-style: bold;}
+
+.p-about{
+  margin:2rem 0;}
+.skill-img{
+opacity: 20%;
+margin-top:1rem;
+}
+.skill-img:hover{
+  opacity:100%;
+  cursor: pointer;
+}
+
+.row-middle{
+  padding-bottom:2rem;
+}
+.row-middle p{
+  padding-top:1rem;
+}
+/* Project-container content */
+
+.container-project{
+  background-color:#121212;
+  text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+padding: 2rem;
+}
+
+.tmp-proj{
+  height: 150px;
+  weight:200px;
+}
+
+.h1-project{
+  padding-top:2rem;
+}
+
+span i{
+  padding-right:1.5rem;
+  padding-bottom:2rem;
+  margin: auto;
+  opacity: 20%;
+}
+
+span i:hover{
+  opacity: 100%;
+  cursor: pointer;
+}
+
+
+/* Contact me Content */
+
+.container-contact{
+text-align: center;
+align-items: center;
+justify-content: center;
+background-color:#F5F5F5;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+.row-contact{
+  justify-content: center;
+  align-items: center;
+}
+.form-group{
+  color:#121212;
+  padding: 2rem 0 1rem 0  ;
+font-family: 'Josefin Sans', sans-serif;
+font-style: bold;
+font-size: 1.2rem;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+form{
+  padding: 2rem 1rem;
+width: 30rem;
+
+}
+
+
+/* Social Content */
+.container-social{
+    background-color:#121212;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 2rem;
+
+}
+.copyright{
+  margin-bottom: 0
+}
+
+.row-social{
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.container-social i{
+  opacity: 20%;
+  color:gray;
+}
+.container-social i:hover{
+  opacity:100%;
+  cursor: pointer;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 780px)
+{
+}
